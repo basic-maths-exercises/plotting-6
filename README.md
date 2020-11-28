@@ -8,6 +8,6 @@ The first numpy function we will use to reduce the length of this code is `np.li
 vals = np.linspace( -np.pi, np.pi, 1000 )
 ````
 
-This line of code sets the variable called `vals` equal to a np.array with 1000 elements.  The first of these elements will be equal to ![](https://render.githubusercontent.com/render/math?math=-\pi) the last of these elements will be set equal to ![](https://render.githubusercontent.com/render/math?math=%2B\pi).  The difference between any adjacent pair of elements in this array is then  ![](https://render.githubusercontent.com/render/math?math=\frac{2*\pi}{999}).
+This line of code sets the variable called `vals` equal to a np.array with 1000 elements.  The first of these elements will be equal to ![](https://render.githubusercontent.com/render/math?math=-\pi) the last of these elements will be set equal to ![](https://render.githubusercontent.com/render/math?math=%2B\pi).  The difference between any adjacent pair of elements in this array is then  ![](https://render.githubusercontent.com/render/math?math=\frac{2\pi}{999}).
 
 __To complete this exercise I would like you to modify the code and to use `np.linspace`.__  In addition, I would like ![](https://render.githubusercontent.com/render/math?math=sin(x)) to be plotted for values of x going from ![](https://render.githubusercontent.com/render/math?math=-2\pi) to ![](https://render.githubusercontent.com/render/math?math=%2B2\pi).  You should still plot a graph with 1000 points, however.
